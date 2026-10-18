@@ -1,0 +1,11 @@
+{
+  "name": "chalupa-vytapeni",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test:browser": "node scripts/browser-test.cjs"
+  },
+  "devDependencies": {
+    "playwright": "1.58.2"
+  }
+}

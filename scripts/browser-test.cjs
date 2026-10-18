@@ -1,0 +1,14 @@
+const {chromium}=require('playwright');
+const fs=require('fs');
+(async()=>{const b=await chromium.launch({headless:true,channel:process.env.PLAYWRIGHT_CHANNEL||'msedge'}); const page=await b.newPage({viewport:{width:1440,height:1100}});const errors=[];page.on('pageerror',e=>errors.push(e.message));page.on('response',r=>{if(r.status()>=400)errors.push(r.status()+' '+r.url())});await page.goto(process.env.TEST_URL||'http://127.0.0.1:8080',{waitUntil:'networkidle'});
+await page.locator('g[data-room="bedroom"]').click();if(!await page.locator('#detail').innerText().then(t=>t.includes('Ložnice')))throw Error('Room click failed');
+await page.locator('g[data-device="adex"]').click();if(!await page.locator('#detail').innerText().then(t=>t.includes('ADEX Comfort D')))throw Error('Device failed');
+await page.locator('#upper').click();if(await page.locator('.radiator').count()!==5)throw Error('Upper radiator count wrong');await page.locator('g[data-room="kitchenUp"]').focus();await page.keyboard.press('Enter');if(!await page.locator('#detail').innerText().then(t=>t.includes('Dva radiátory')))throw Error('Keyboard selection failed');
+await page.locator('#ground').click();await page.locator('#heat-layer').uncheck();if(await page.locator('.heated').count())throw Error('Layer toggle failed');await page.locator('#heat-layer').check();
+await page.locator('.nav[data-view="inventory"]').click();await page.locator('#device-search').fill('Grundfos');if(await page.locator('.inventory-card').count()!==1)throw Error('Search failed');await page.locator('.inventory-card').click();await page.locator('#inventory-detail .photo-button').click();if(!await page.locator('#photo-dialog').isVisible())throw Error('Photo modal failed');await page.keyboard.press('Escape');
+await page.locator('.nav[data-view="guide"]').click();await page.locator('summary').nth(1).click();if(!await page.locator('details').nth(1).evaluate(e=>e.open))throw Error('Guide failed');
+await page.locator('.nav[data-view="flow"]').click();await page.locator('.flow-node').first().click();if(!await page.locator('#flow-detail').innerText().then(t=>t.includes('SLOKOV')))throw Error('Flow device failed');
+await page.locator('.nav[data-view="map"]').click();await page.evaluate(()=>window.scrollTo(0,0));fs.mkdirSync('.test-output',{recursive:true});await page.screenshot({path:'.test-output/desktop.png',fullPage:true});
+await page.setViewportSize({width:390,height:844});await page.screenshot({path:'.test-output/mobile.png',fullPage:true});const overflow=await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth);if(overflow)throw Error('Page overflows mobile viewport');
+await b.close();if(errors.length)throw Error(errors.join('\n'));console.log('PASS: rooms, devices, keyboard, 5 upstairs radiators, layer, search, gallery, guide, flow, mobile containment. No console/page/network errors.');})();
+
