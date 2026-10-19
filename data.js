@@ -1,6 +1,6 @@
 /* Konsolidovaný stav; historické odhady nejsou vstupem vykreslení. */
 window.HEATING_DATA = {
-  "updated": "2026-10-18",
+  "updated": "2026-10-19",
   "devices": {
     "boiler": {
       "name": "Kotel",
@@ -164,7 +164,14 @@ window.HEATING_DATA = {
           "loops": 2,
           "rads": 1,
           "note": "Dvě smyčky. Radiátor R4 pod oknem. Tvar místnosti je přibližně čtvercový; proporce doplníme měřením.",
-          "photo": "bed"
+          "photo": "bed",
+          "history": [
+            {
+              "photo": "history-bedroom",
+              "caption": "Pokládka v ložnici · 6. 8. 2024 podle názvu souboru",
+              "note": "Pohled ze dveří. Dvě spirálové části a vývody u prahu odpovídají dvěma smyčkám popsaným rodinou. Úplné napojení na rozdělovač snímek neukazuje."
+            }
+          ]
         },
         "kitchen": {
           "name": "Kuchyň s jídelnou",
@@ -176,7 +183,14 @@ window.HEATING_DATA = {
           "loops": 1,
           "rads": 1,
           "note": "Jedna větší smyčka. Trubky ložnicových smyček vedou přes kuchyň kolem plánovaného pultu; netvoří další samostatný okruh.",
-          "photo": "kitchen"
+          "photo": "kitchen",
+          "history": [
+            {
+              "photo": "history-kitchen",
+              "caption": "Pokládka v kuchyni · 4. 10. 2024 podle názvu souboru",
+              "note": "Pohled ze dveří z chodby. V zadní části vedou podle rodiny průchozí úseky ložnicových smyček. Nejde o další samostatnou smyčku kuchyně."
+            }
+          ]
         },
         "living": {
           "name": "Prostor s krbem",
@@ -193,7 +207,14 @@ window.HEATING_DATA = {
             "thermostat",
             "manifold"
           ],
-          "special": "Chodba: další samostatná smyčka, bez radiátoru."
+          "special": "Chodba: další samostatná smyčka, bez radiátoru.",
+          "history": [
+            {
+              "photo": "history-hall",
+              "caption": "Vstupní chodba · 1. 9. 2024 podle názvu souboru",
+              "note": "Pohled ke vstupním dveřím. Historická pokládka samostatné smyčky chodby, která je součástí otevřeného prostoru s krbem."
+            }
+          ]
         },
         "pantry": {
           "name": "Spíž",
@@ -363,7 +384,7 @@ window.HEATING_DATA = {
     ],
     [
       "O podkladech a přesnosti plánku",
-      "<p>Plánek vychází z ručních kreseb a slovního popisu rodiny, fotografie z návštěvy a historické pokládky. Obě podlaží používají stejný rámec a navazující schody.</p><p>Rozměry, délky radiátorů a polohy oken jsou orientační. Podlahovka je znázorněná plochou, nikoli přesnou trasou pro vrtání nebo stavební zásahy.</p><p>Chybějící fotky chodby, kuchyně a ložnice doplníme později. Soukromé doklady a výrobní čísla nejsou součástí zveřejněného webu.</p>"
+      "<p>Plánek vychází z ručních kreseb a slovního popisu rodiny, fotografie z návštěvy a historické pokládky. Obě podlaží používají stejný rámec a navazující schody.</p><p>Rozměry, délky radiátorů a polohy oken jsou orientační. Podlahovka je znázorněná plochou, nikoli přesnou trasou pro vrtání nebo stavební zásahy.</p><p>Historické fotografie chodby, kuchyně a ložnice byly doplněny 19. 10. 2026. Přiřazení místností a směr pohledu popisuje rodina. Soukromé doklady a výrobní čísla nejsou součástí zveřejněného webu.</p>"
     ]
   ]
 };

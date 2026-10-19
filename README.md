@@ -1,6 +1,6 @@
 # Teplo doma – průvodce vytápěním chalupy
 
-Statický rodinný průvodce se dvěma orientačními půdorysy, přehledem zařízení a vysvětlením vytápění. Stav podkladů: 18. 10. 2026.
+Statický rodinný průvodce se dvěma orientačními půdorysy, přehledem zařízení a vysvětlením vytápění. Stav podkladů: 19. 10. 2026.
 
 ## Spuštění a úpravy
 
@@ -37,3 +37,7 @@ GitHub Pages z větve `main`, kořen repozitáře. Soubor `.nojekyll` vypíná J
 ## Ověření
 
 Interakce lze znovu ověřit pomocí `npm install`, spuštění lokálního HTTP serveru na portu 8080 a `npm run test:browser`. Test používá Microsoft Edge; jiný kanál lze nastavit proměnnou `PLAYWRIGHT_CHANNEL`. Proměnná `TEST_URL` umožňuje kontrolovat publikovanou adresu. Test kontroluje místnosti, zařízení, klávesnici, radiátory patra, vrstvu podlahovky, vyhledávání, galerii, průvodce i šířku mobilního zobrazení.
+
+### Doplnění 19. 10. 2026
+
+Historické fotografie pokládky ložnice, kuchyně a vstupní chodby jsou dostupné v detailech příslušných místností. Chodba je v plánku součást otevřeného prostoru s krbem. Datum fotografie vychází z původního názvu souboru, nejde o nezávisle ověřené datum. Fotografie nemění počet šesti smyček a nejsou zaměřením tras pro stavební zásahy.
