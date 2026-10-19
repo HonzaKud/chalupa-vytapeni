@@ -246,14 +246,14 @@ window.HEATING_DATA = {
         },
         "living": {
           "name": "Prostor s krbem",
-          "shape": "M470 105H890V385H780V310H650V385H470Z",
+          "shape": "M470 105H890V310H550V385H470Z",
           "label": [
             720,
             222
           ],
           "loops": 1,
           "rads": 1,
-          "note": "Jeden otevřený prostor s chodbou, krbem, stolem a lavicí do L. Prostor u krbu má vlastní smyčku; na rozdělovači jí odpovídá pracovní přiřazení štítku jídelna.",
+          "note": "Otevřený prostor do L: hlavní vchod vede do chodbičky vlevo vedle spíže. Po vstupu je spíž vpravo, dál kuchyň vlevo a čelně schody do L s rohovou čtvercovou podestou. Doprava se otevírá část s krbem, stolem a lavicí. Vlastní smyčka prostoru u krbu je pracovně přiřazena štítku jídelna.",
           "photo": "history-fire",
           "devices": [
             "thermostat",
@@ -277,18 +277,18 @@ window.HEATING_DATA = {
           ],
           "loops": 0,
           "rads": 0,
-          "note": "Bez podlahového topení. Radiátor nebyl uveden."
+          "note": "Spíž má jediné dveře z pravé strany vstupní chodbičky. Nemá venkovní vstup. Bez podlahovky; radiátor nebyl uveden."
         },
         "bath": {
           "name": "Koupelna",
-          "shape": "M650 310H780V385H650Z",
+          "shape": "M650 310H890V385H650Z",
           "label": [
-            715,
+            770,
             347
           ],
           "loops": 1,
           "rads": 0,
-          "note": "Jedna podlahová smyčka, bez radiátoru. Historická fotografie potvrzuje pokládku, aktuální provoz ještě není ověřený.",
+          "note": "Protáhlá koupelna s WC sahá až ke stěně kotelny. Zde je plná stěna bez dveří do kotelny. Vstup je pouze z prostoru s krbem. Jedna podlahová smyčka, bez radiátoru; provoz neověřený.",
           "photo": "history-bath"
         },
         "storage": {
@@ -356,7 +356,7 @@ window.HEATING_DATA = {
           "shape": "M470 105H650V310H470Z",
           "label": [
             560,
-            235
+            270
           ],
           "loops": 0,
           "rads": null,
