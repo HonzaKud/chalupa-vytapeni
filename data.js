@@ -163,15 +163,33 @@ window.HEATING_DATA = {
           ],
           "loops": 2,
           "rads": 1,
-          "note": "Dvě smyčky. Radiátor R4 pod oknem. Tvar místnosti je přibližně čtvercový; proporce doplníme měřením.",
-          "photo": "bed",
+          "note": "Dvě podlahové smyčky a jeden radiátor R4 pod oknem na pravé stěně při pohledu ze dveří. Místnost má podle měření rodiny 570 × 430 cm. Naproti dveřím jsou dvě okna široká 100 cm, na pravé stěně jedno okno široké 160 cm.",
+          "photo": "bed-radiator-2026-10-19",
           "history": [
             {
               "photo": "history-bedroom",
               "caption": "Pokládka v ložnici · 6. 8. 2024 podle názvu souboru",
               "note": "Pohled ze dveří. Dvě spirálové části a vývody u prahu odpovídají dvěma smyčkám popsaným rodinou. Úplné napojení na rozdělovač snímek neukazuje."
             }
-          ]
+          ],
+          "measurements": {
+            "widthCm": 570,
+            "depthCm": 430,
+            "source": "Měření rodiny, doplněno 19. 10. 2026. Vzdálenosti mezi stěnami, tloušťka obvodového zdiva nezměřena.",
+            "oppositeWall": [
+              115,
+              100,
+              123,
+              100,
+              132
+            ],
+            "rightWall": [
+              130,
+              160,
+              140
+            ],
+            "orientation": "Pohled ze dveří: dvě okna naproti, jedno okno s radiátorem napravo. Poloha a šířka dveří nezměřena."
+          }
         },
         "kitchen": {
           "name": "Kuchyň s jídelnou",
@@ -386,5 +404,6 @@ window.HEATING_DATA = {
       "O podkladech a přesnosti plánku",
       "<p>Plánek vychází z ručních kreseb a slovního popisu rodiny, fotografie z návštěvy a historické pokládky. Obě podlaží používají stejný rámec a navazující schody.</p><p>Rozměry, délky radiátorů a polohy oken jsou orientační. Podlahovka je znázorněná plochou, nikoli přesnou trasou pro vrtání nebo stavební zásahy.</p><p>Historické fotografie chodby, kuchyně a ložnice byly doplněny 19. 10. 2026. Přiřazení místností a směr pohledu popisuje rodina. Soukromé doklady a výrobní čísla nejsou součástí zveřejněného webu.</p>"
     ]
-  ]
+  ],
+  "groundWidthCmReported": 570
 };

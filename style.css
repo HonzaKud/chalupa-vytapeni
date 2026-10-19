@@ -5,3 +5,5 @@
 @media print{.topbar, .intro,.view:not(#guide-view),footer,.solid-button,dialog{display:none!important}#guide-view{display:block!important}.guide-layout{display:block}.paper-note{margin-top:20px}details .guide-body{display:block!important}details{break-inside:avoid}summary:after{display:none}body{background:white;color:black}main{padding:0}.guide-body{color:#333}h2{font-size:25px!important}}
 
 .mobile-plan-hint{display:none}@media(max-width:650px){.mobile-plan-hint{display:block;font-size:10px;color:var(--muted);padding:0 18px;margin:15px 0 0}}
+
+.measured-room{border-top:1px solid var(--line);margin-top:24px;padding-top:8px}.measured-room svg{width:100%;height:auto;display:block}.measurement-source{font-size:10px!important;color:var(--muted)}
