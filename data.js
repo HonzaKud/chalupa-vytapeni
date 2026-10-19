@@ -188,7 +188,12 @@ window.HEATING_DATA = {
               160,
               140
             ],
-            "orientation": "Pohled ze dveří: dvě okna naproti, jedno okno s radiátorem napravo. Poloha a šířka dveří nezměřena."
+            "orientation": "Pohled ze dveří: dvě okna naproti, jedno okno s radiátorem napravo. Poloha a šířka dveří nezměřena.",
+            "doorFromRadiatorWall": [
+              108,
+              80,
+              382
+            ]
           }
         },
         "kitchen": {
@@ -200,15 +205,44 @@ window.HEATING_DATA = {
           ],
           "loops": 1,
           "rads": 1,
-          "note": "Jedna větší smyčka. Trubky ložnicových smyček vedou přes kuchyň kolem plánovaného pultu; netvoří další samostatný okruh.",
-          "photo": "kitchen",
+          "note": "Kuchyň má podle měření rodiny 570 × 430 cm, jednu větší podlahovou smyčku a radiátor dlouhý 200 cm pod dvěma okny. Úseky ložnicových smyček tudy procházejí. Plánovaná linka do L patří do pravého rohu hned po vstupu z chodby; výklenky komínů nejsou zakreslené.",
+          "photo": "kitchen-radiator-2026-10-19",
           "history": [
             {
               "photo": "history-kitchen",
               "caption": "Pokládka v kuchyni · 4. 10. 2024 podle názvu souboru",
               "note": "Pohled ze dveří z chodby. V zadní části vedou podle rodiny průchozí úseky ložnicových smyček. Nejde o další samostatnou smyčku kuchyně."
             }
-          ]
+          ],
+          "kitchenMeasurements": {
+            "acrossHouseCm": 570,
+            "alongHouseCm": 430,
+            "bedroomDoor": [
+              108,
+              80,
+              382
+            ],
+            "hallDoor": [
+              197,
+              80,
+              293
+            ],
+            "radiatorWall": [
+              87,
+              98,
+              49,
+              98,
+              98
+            ],
+            "oppositeWall": [
+              125,
+              170,
+              135
+            ],
+            "radiatorLengthCm": 200,
+            "reference": "Oba dveřní otvory měřeny od stěny se dvěma okny a radiátorem. Okna měřena zleva při čelním pohledu na příslušnou stěnu.",
+            "counter": "Pravý roh hned po vstupu z chodby; délky ramen nezměřené."
+          }
         },
         "living": {
           "name": "Prostor s krbem",
