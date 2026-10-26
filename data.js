@@ -302,7 +302,7 @@ window.HEATING_DATA = {
           ],
           "loops": 0,
           "rads": 1,
-          "note": "Místnost má podle měření 170 × 310 cm: 170 cm od prostoru s krbem ke koncové stěně, 310 cm podél stěny s kotelnou. Dvě akumulační nádrže stojí vedle sebe u koncové stěny naproti vstupu z prostoru s krbem, nikoli před radiátorem. Dvě směšovací skupiny, radiátor R1 pod oknem. Dveře z kotelny začínají 25 cm od stěny sousedící s prostorem s krbem, mají 95 cm a otevírají se do akumulační místnosti. Do 170 cm zbývá 50 cm. Přesné odstupy zařízení nezměřené.",
+          "note": "Místnost má podle měření 170 × 310 cm: 170 cm od prostoru s krbem ke koncové stěně, 310 cm podél stěny s kotelnou. Dvě akumulační nádrže stojí vedle sebe u koncové stěny naproti vstupu z prostoru s krbem, nikoli před radiátorem. Dvě směšovací skupiny, radiátor R1 pod oknem. Dveře z kotelny začínají 25 cm od stěny sousedící s prostorem s krbem, mají 95 cm a otevírají se do akumulační místnosti. Dřívější dopočet zbytku 50 cm byl chybný; 95 cm otvor odpovídá podílu 95/310 délky společné stěny. Začátek otvoru v orientační kresbě uživatel potvrdil. Přesné odstupy zařízení nezměřené.",
           "devices": [
             "tanks",
             "adex",
