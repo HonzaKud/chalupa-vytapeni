@@ -1,6 +1,6 @@
 /* Konsolidovaný stav; historické odhady nejsou vstupem vykreslení. */
 window.HEATING_DATA = {
-  "updated": "2026-10-19",
+  "updated": "2026-10-26",
   "devices": {
     "boiler": {
       "name": "Kotel",
@@ -22,7 +22,7 @@ window.HEATING_DATA = {
     "tanks": {
       "name": "Akumulační nádrže",
       "model": "Pravděpodobně Regulus PS 800 E",
-      "place": "Místnost s akumulací · A1 / A2",
+      "place": "Místnost s akumulací · koncová stěna naproti vstupu · A1 / A2",
       "photo": "tanks",
       "status": "Typ k potvrzení",
       "kind": "probable",
@@ -73,7 +73,7 @@ window.HEATING_DATA = {
     "manifold": {
       "name": "Rozdělovač podlahovky",
       "model": "Šest vývodů · dvě vodorovné lišty",
-      "place": "Pod schody v přízemí · P",
+      "place": "U zdi / ve zdi pod druhým ramenem schodů v přízemí · P",
       "photo": "manifold",
       "status": "Šest vývodů ověřeno",
       "kind": "known",
@@ -106,7 +106,7 @@ window.HEATING_DATA = {
     "water": {
       "name": "Bojler",
       "model": "Typ a objem zatím neznáme",
-      "place": "Kotelna · B",
+      "place": "Kotelna · úplně v rohu na dosavadní straně · B",
       "photo": "water",
       "status": "Ohřev k ověření",
       "kind": "probable",
@@ -188,11 +188,11 @@ window.HEATING_DATA = {
               160,
               140
             ],
-            "orientation": "Pohled ze dveří: dvě okna naproti, jedno okno s radiátorem napravo. Poloha a šířka dveří nezměřena.",
+            "orientation": "Pohled ze dveří: dvě okna naproti, jedno okno s radiátorem napravo. Dveře 80 cm, 205 cm od stěny s radiátorem; oprava 26. 10. 2026.",
             "doorFromRadiatorWall": [
-              108,
+              205,
               80,
-              382
+              285
             ]
           }
         },
@@ -218,9 +218,9 @@ window.HEATING_DATA = {
             "acrossHouseCm": 570,
             "alongHouseCm": 430,
             "bedroomDoor": [
-              108,
+              205,
               80,
-              382
+              285
             ],
             "hallDoor": [
               197,
@@ -253,7 +253,7 @@ window.HEATING_DATA = {
           ],
           "loops": 1,
           "rads": 1,
-          "note": "Otevřený prostor do L: hlavní vchod vede do chodbičky vlevo vedle spíže. Po vstupu je spíž vpravo, dál kuchyň vlevo a čelně schody do L s rohovou čtvercovou podestou. Doprava se otevírá část s krbem, stolem a lavicí. Vlastní smyčka prostoru u krbu je pracovně přiřazena štítku jídelna.",
+          "note": "Od zdi koupelny k protější stěně s radiátorem naměřeno 360 cm. Od zdi spíže ke zdi kuchyně naměřeno 210 cm. Odvozená délka části s krbem je přibližně 790 cm = 210 + 10 + 140 + 10 + 420; obě příčky po 10 cm jsou pouze odhad. Otevřený prostor do L: hlavní vchod vede do chodbičky vlevo vedle spíže. Po vstupu je spíž vpravo, dál kuchyň vlevo a čelně schody do L s rohovou čtvercovou podestou. Doprava se otevírá část s krbem, stolem a lavicí. Vlastní smyčka prostoru u krbu je pracovně přiřazena štítku jídelna.",
           "photo": "history-fire",
           "devices": [
             "thermostat",
@@ -277,7 +277,7 @@ window.HEATING_DATA = {
           ],
           "loops": 0,
           "rads": 0,
-          "note": "Spíž má jediné dveře z pravé strany vstupní chodbičky. Nemá venkovní vstup. Bez podlahovky; radiátor nebyl uveden."
+          "note": "Spíž má 160 × 140 cm. Příčky jsou odhadnuté na 10 cm. Spíž má jediné dveře z pravé strany vstupní chodbičky. Nemá venkovní vstup. Bez podlahovky; radiátor nebyl uveden."
         },
         "bath": {
           "name": "Koupelna",
@@ -288,8 +288,8 @@ window.HEATING_DATA = {
           ],
           "loops": 1,
           "rads": 0,
-          "note": "Protáhlá koupelna s WC sahá až ke stěně kotelny. Zde je plná stěna bez dveří do kotelny. Vstup je pouze z prostoru s krbem. Jedna podlahová smyčka, bez radiátoru; provoz neověřený.",
-          "photo": "history-bath"
+          "note": "Koupelna má 160 × 420 cm (150 + 90 dveře + 180). Na protější stěně od spíže: 10 zeď + 97 okno + 80 pilíř + 94 okno + dopočet 139 cm ke kotelně. Protáhlá koupelna s WC sahá až ke stěně kotelny. Zde je plná stěna bez dveří do kotelny. Vstup je pouze z prostoru s krbem. Jedna podlahová smyčka, bez radiátoru; provoz neověřený.",
+          "bathMeasurements": {"widthCm":160,"lengthCm":420,"doorWall":[150,90,180],"windowWall":[10,97,80,94,139]}, "photo": "history-bath"
         },
         "storage": {
           "name": "Místnost s akumulací",
@@ -300,7 +300,7 @@ window.HEATING_DATA = {
           ],
           "loops": 0,
           "rads": 1,
-          "note": "Dvě nádrže a dvě směšovací skupiny, radiátor R1 pod oknem. ADEX je na stěně mezi A2 a oknem.",
+          "note": "Místnost má podle měření 170 × 310 cm: 170 cm od prostoru s krbem ke koncové stěně, 310 cm podél stěny s kotelnou. Dvě akumulační nádrže stojí vedle sebe u koncové stěny naproti vstupu z prostoru s krbem, nikoli před radiátorem. Dvě směšovací skupiny, radiátor R1 pod oknem. Přesné odstupy zařízení nezměřené.",
           "devices": [
             "tanks",
             "adex",
@@ -316,7 +316,7 @@ window.HEATING_DATA = {
           ],
           "loops": 0,
           "rads": null,
-          "note": "Kotel před komínem, bojler a expanzní nádoba. Kotelna má samostatný venkovní vstup ze dvora.",
+          "note": "Kotel před komínem, poloha ponechána. Bojler je úplně v rohu na dosavadní straně, dále expanzní nádoba. Kotelna má samostatný venkovní vstup ze dvora. Předběžně cca 170 × 210 cm: šířka odvozena jako 360 + 10 + 160 - 310 - 10. Rozpor s dřívější celkovou šířkou domu 570 cm (zde vychází 530 cm) zůstává neověřený.",
           "devices": [
             "boiler",
             "water",
