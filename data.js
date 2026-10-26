@@ -23,7 +23,8 @@ window.HEATING_DATA = {
       "name": "Akumulační nádrže",
       "model": "Pravděpodobně Regulus PS 800 E",
       "place": "Místnost s akumulací · koncová stěna naproti vstupu · A1 / A2",
-      "photo": "tanks",
+      "photo": "tanks-2026-10-26-1",
+      "gallery": [{"photo":"tanks-2026-10-26-2","caption":"Druhá akumulační nádrž a viditelné přípojky · 26. 10. 2026"}],
       "status": "Typ k potvrzení",
       "kind": "probable",
       "summary": "Uchovávají teplo ve větším objemu topné vody pro pozdější vytápění.",
@@ -31,10 +32,11 @@ window.HEATING_DATA = {
         "Volně nalezený štítek uvádí PS 800 E a skutečný objem 780 l. Příslušnost k oběma nádržím nepotvrzená.",
         "Pokud jsou oba kusy shodné, celkem jde o 1560 litrů.",
         "A1 a A2 jsou značky našeho plánku, nikoli označení pořadí proudění.",
+        "Nové fotografie z 26. 10. 2026 ukazují oba izolované zásobníky, viditelné přípojky a část potrubí. Úplné hydraulické zapojení ani model tím nejsou potvrzené.",
         "Hodnota výstup AKU neukazuje průměrnou teplotu ani zásobu tepla obou nádrží."
       ],
       "unknown": "Sériové či paralelní propojení, přesná poloha čidel a model obou kusů.",
-      "source": "Fotografie, nalezený štítek a návod Regulus.",
+      "source": "Fotografie včetně dvou nových z 26. 10. 2026, nalezený štítek a návod Regulus.",
       "link": "https://www.regulus.cz/download/navody/cz/nn_cz_navod_ps-e-od-600.pdf"
     },
     "adex": {
