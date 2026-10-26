@@ -90,7 +90,7 @@ window.HEATING_DATA = {
     "thermostat": {
       "name": "Pokojový termostat",
       "model": "TRINNITY · přesný model neověřen",
-      "place": "Dočasně nad krbem · T",
+      "place": "Přímo na krbu · T",
       "photo": "thermostat",
       "status": "Umístění dočasné",
       "kind": "probable",
@@ -253,7 +253,7 @@ window.HEATING_DATA = {
           ],
           "loops": 1,
           "rads": 1,
-          "note": "Od zdi koupelny k protější stěně s radiátorem naměřeno 360 cm. Od zdi spíže ke zdi kuchyně naměřeno 210 cm. Odvozená délka části s krbem je přibližně 790 cm = 210 + 10 + 140 + 10 + 420; obě příčky po 10 cm jsou pouze odhad. Otevřený prostor do L: hlavní vchod vede do chodbičky vlevo vedle spíže. Po vstupu je spíž vpravo, dál kuchyň vlevo a čelně schody do L s rohovou čtvercovou podestou. Doprava se otevírá část s krbem, stolem a lavicí. Vlastní smyčka prostoru u krbu je pracovně přiřazena štítku jídelna.",
+          "note": "Od zdi koupelny k protější stěně s radiátorem naměřeno 360 cm. Od zdi spíže ke zdi kuchyně naměřeno 210 cm. Odvozená délka části s krbem je přibližně 790 cm = 210 + 10 + 140 + 10 + 420; obě příčky po 10 cm jsou pouze odhad. Otevřený prostor do L: hlavní vchod vede do chodbičky vlevo vedle spíže. Po vstupu je spíž vpravo, dál kuchyň vlevo a čelně schody do L s rohovou čtvercovou podestou. Doprava se otevírá část s krbem, stolem a lavicí. Krátké rameno lavice směřuje ke schodům. Na stěně s akumulací od koupelny: 53 cm zeď, 124 cm krb, 73 cm mezera do začátku dveří v 250 cm. Krb vystupuje 27 cm do prostoru, termostat leží přímo na něm. Dveře do akumulace se otevírají do prostoru s krbem; šířka nezměřena. Hlavní vstup dovnitř, dveře spíže do spíže. Vlastní smyčka prostoru u krbu je pracovně přiřazena štítku jídelna.",
           "photo": "history-fire",
           "devices": [
             "thermostat",
@@ -300,7 +300,7 @@ window.HEATING_DATA = {
           ],
           "loops": 0,
           "rads": 1,
-          "note": "Místnost má podle měření 170 × 310 cm: 170 cm od prostoru s krbem ke koncové stěně, 310 cm podél stěny s kotelnou. Dvě akumulační nádrže stojí vedle sebe u koncové stěny naproti vstupu z prostoru s krbem, nikoli před radiátorem. Dvě směšovací skupiny, radiátor R1 pod oknem. Přesné odstupy zařízení nezměřené.",
+          "note": "Místnost má podle měření 170 × 310 cm: 170 cm od prostoru s krbem ke koncové stěně, 310 cm podél stěny s kotelnou. Dvě akumulační nádrže stojí vedle sebe u koncové stěny naproti vstupu z prostoru s krbem, nikoli před radiátorem. Dvě směšovací skupiny, radiátor R1 pod oknem. Dveře z kotelny začínají 25 cm od stěny sousedící s prostorem s krbem, mají 95 cm a otevírají se do akumulační místnosti. Do 170 cm zbývá 50 cm. Přesné odstupy zařízení nezměřené.",
           "devices": [
             "tanks",
             "adex",
@@ -316,7 +316,7 @@ window.HEATING_DATA = {
           ],
           "loops": 0,
           "rads": null,
-          "note": "Kotel před komínem, poloha ponechána. Bojler je úplně v rohu na dosavadní straně, dále expanzní nádoba. Kotelna má samostatný venkovní vstup ze dvora. Předběžně cca 170 × 210 cm: šířka odvozena jako 360 + 10 + 160 - 310 - 10. Rozpor s dřívější celkovou šířkou domu 570 cm (zde vychází 530 cm) zůstává neověřený.",
+          "note": "Kotel před komínem, poloha ponechána. Bojler je úplně v rohu na dosavadní straně, dále expanzní nádoba. Kotelna má samostatný venkovní vstup ze dvora. Původní dopočet 170 × 210 cm je zpochybněn novým měřením. Venkovní dveře začínají 220 cm od stěny u koupelny a mají 90 cm; otevírají se ven. Tato stěna má nejméně 310 cm, zbytek za dveřmi nezměřen. Poloha venkovních dveří je zatím schematická. Dveře do akumulace se otevírají do akumulační místnosti.",
           "devices": [
             "boiler",
             "water",
