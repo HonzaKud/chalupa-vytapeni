@@ -334,14 +334,14 @@ window.HEATING_DATA = {
       "rooms": {
         "bedroomUp": {
           "name": "Levá ložnice",
-          "shape": "M30 105H250V385H30Z",
+          "shape": "M5 130H250V385H5Z",
           "label": [
             140,
             235
           ],
           "loops": 0,
           "rads": 1,
-          "note": "Jeden radiátor R5 pod velkým oknem; další dvě malá okénka jsou ve štítu. Vstup přes pracovnu."
+          "note": "Měření 27. 10. 2026: 510 × 490 cm. Při vstupu vpravo radiátor R5 dlouhý 160 cm pod oknem širokým 165 cm. Naproti ve štítu dvě okénka po 60 cm bez radiátoru. Dveře 85 cm se otevírají dovnitř ložnice. Podkroví je uvnitř užší než přízemí kvůli střeše.", "photo":"upper-bedroom-radiator", "upperBedroomMeasurements":{"widthCm":510,"depthCm":490,"gableWall":[105,60,35,60,250],"radiatorWall":[190,165,135],"doorWallFromRightFacingDoor":[65,85,360],"radiatorLengthCm":160}
         },
         "office": {
           "name": "Pracovna",
@@ -352,7 +352,7 @@ window.HEATING_DATA = {
           ],
           "loops": 0,
           "rads": 1,
-          "note": "Radiátor R6 pod okenní částí. Prosklené balkonové dveře jsou u strany nejblíž schodům, před nimi radiátor není."
+          "note": "Uživatel uvádí příčný rozměr 510 cm stejně jako u levé ložnice; další rozměry a otvory zbývají změřit. Radiátor R6 pod okenní částí. Prosklené balkonové dveře jsou u strany nejblíž schodům, před nimi radiátor není."
         },
         "landing": {
           "name": "Chodba a schody",
