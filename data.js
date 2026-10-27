@@ -296,14 +296,14 @@ window.HEATING_DATA = {
         },
         "storage": {
           "name": "Místnost s akumulací",
-          "shape": "M890 105H975V260H890Z",
+          "shape": "M890 105H1035V260H890Z",
           "label": [
-            932.5,
+            962.5,
             208
           ],
           "loops": 0,
           "rads": 1,
-          "note": "Místnost má podle měření 170 × 310 cm: 170 cm od prostoru s krbem ke koncové stěně, druhý rozměr 310 cm. Dvě akumulační nádrže stojí vedle sebe u koncové stěny naproti vstupu z prostoru s krbem, nikoli před radiátorem. Dvě směšovací skupiny, radiátor R1 pod oknem. Dveře z kotelny začínají 25 cm od stěny sousedící s prostorem s krbem, mají 95 cm a otevírají se do akumulační místnosti. Společná stěna je v aktuální interpretaci dlouhá 170 cm: 25 cm + 95 cm dveře + 50 cm zbytek. Předchozí přepočet 95/310 zaměňoval osy; opraveno podle rozměru 170 cm od stěny s krbem ke konci domu. Přesné odstupy zařízení nezměřené.",
+          "note": "Místnost má podle měření 290 × 310 cm: společná stěna s kotelnou má 25 cm + 95 cm dveře + 170 cm zbývající zeď = 290 cm (upřesnění rodiny). Druhý rozměr 310 cm zůstává podle dřívějšího měření. Dvě akumulační nádrže stojí vedle sebe u koncové stěny naproti vstupu z prostoru s krbem, nikoli před radiátorem. Dvě směšovací skupiny, radiátor R1 pod oknem. Dveře z kotelny začínají 25 cm od stěny sousedící s prostorem s krbem, mají 95 cm a otevírají se do akumulační místnosti. Zbytek za dveřmi je 170 cm, nejde o délku celé stěny. Předchozí zúžení místnosti na 170 cm bylo chybné. Přesné odstupy zařízení nezměřené.",
           "devices": [
             "tanks",
             "adex",
@@ -312,14 +312,14 @@ window.HEATING_DATA = {
         },
         "boilerroom": {
           "name": "Kotelna",
-          "shape": "M890 260H975V385H890Z",
+          "shape": "M890 260H1035V385H890Z",
           "label": [
-            932.5,
+            962.5,
             357
           ],
           "loops": 0,
           "rads": null,
-          "note": "Kotel před komínem, poloha ponechána. Bojler je úplně v rohu na dosavadní straně, dále expanzní nádoba. Kotelna má samostatný venkovní vstup ze dvora. Původní dopočet 170 × 210 cm je zpochybněn novým měřením. Venkovní dveře začínají 220 cm od stěny u koupelny a mají 90 cm; otevírají se ven. Tato stěna má nejméně 310 cm, zbytek za dveřmi nezměřen. Poloha venkovních dveří je zatím schematická. Dveře do akumulace se otevírají do akumulační místnosti.",
+          "note": "Kotel před komínem, poloha ponechána. Bojler je úplně v rohu na dosavadní straně, dále expanzní nádoba. Kotelna má samostatný venkovní vstup ze dvora. Dřívější rozměrové dopočty kotelny jsou překonané. Společná stěna s akumulační místností má podle nového upřesnění 290 cm; druhý rozměr kotelny není přímo změřen. Venkovní dveře začínají 220 cm od stěny u koupelny a mají 90 cm; otevírají se ven. Stěna s venkovními dveřmi by podle tohoto měření musela mít nejméně 310 cm; rozdíl proti společné hloubce 290 cm zbývá ověřit, nejde o potvrzený konečný rozměr. Poloha venkovních dveří je zatím schematická. Dveře do akumulace se otevírají do akumulační místnosti.",
           "devices": [
             "boiler",
             "water",
