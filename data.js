@@ -249,7 +249,7 @@ window.HEATING_DATA = {
         },
         "living": {
           "name": "Prostor s krbem",
-          "shape": "M470 105H890V310H550V385H470Z",
+          "shape": "M470 105H890V305H580V385H470Z",
           "label": [
             720,
             222
@@ -273,18 +273,18 @@ window.HEATING_DATA = {
         },
         "pantry": {
           "name": "Spíž",
-          "shape": "M550 310H650V385H550Z",
+          "shape": "M580 305H650V385H580Z",
           "label": [
-            600,
+            615,
             347
           ],
           "loops": 0,
           "rads": 0,
-          "note": "Spíž má 160 × 140 cm. Příčky jsou odhadnuté na 10 cm. Spíž má jediné dveře z pravé strany vstupní chodbičky. Nemá venkovní vstup. Bez podlahovky; radiátor nebyl uveden."
+          "note": "Spíž má v orientaci plánku šířku 140 cm a výšku 160 cm, tedy 140 × 160 cm. Je vyšší než širší; výška odpovídá koupelně. Příčky jsou odhadnuté na 10 cm. Spíž má jediné dveře z pravé strany vstupní chodbičky. Nemá venkovní vstup. Bez podlahovky; radiátor nebyl uveden."
         },
         "bath": {
           "name": "Koupelna",
-          "shape": "M650 310H890V385H650Z",
+          "shape": "M650 305H890V385H650Z",
           "label": [
             770,
             347
