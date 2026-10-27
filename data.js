@@ -296,14 +296,14 @@ window.HEATING_DATA = {
         },
         "storage": {
           "name": "Místnost s akumulací",
-          "shape": "M890 105H1150V260H890Z",
+          "shape": "M890 105H975V260H890Z",
           "label": [
-            1020,
+            932.5,
             208
           ],
           "loops": 0,
           "rads": 1,
-          "note": "Místnost má podle měření 170 × 310 cm: 170 cm od prostoru s krbem ke koncové stěně, 310 cm podél stěny s kotelnou. Dvě akumulační nádrže stojí vedle sebe u koncové stěny naproti vstupu z prostoru s krbem, nikoli před radiátorem. Dvě směšovací skupiny, radiátor R1 pod oknem. Dveře z kotelny začínají 25 cm od stěny sousedící s prostorem s krbem, mají 95 cm a otevírají se do akumulační místnosti. Dřívější dopočet zbytku 50 cm byl chybný; 95 cm otvor odpovídá podílu 95/310 délky společné stěny. Začátek otvoru v orientační kresbě uživatel potvrdil. Přesné odstupy zařízení nezměřené.",
+          "note": "Místnost má podle měření 170 × 310 cm: 170 cm od prostoru s krbem ke koncové stěně, druhý rozměr 310 cm. Dvě akumulační nádrže stojí vedle sebe u koncové stěny naproti vstupu z prostoru s krbem, nikoli před radiátorem. Dvě směšovací skupiny, radiátor R1 pod oknem. Dveře z kotelny začínají 25 cm od stěny sousedící s prostorem s krbem, mají 95 cm a otevírají se do akumulační místnosti. Společná stěna je v aktuální interpretaci dlouhá 170 cm: 25 cm + 95 cm dveře + 50 cm zbytek. Předchozí přepočet 95/310 zaměňoval osy; opraveno podle rozměru 170 cm od stěny s krbem ke konci domu. Přesné odstupy zařízení nezměřené.",
           "devices": [
             "tanks",
             "adex",
@@ -312,9 +312,9 @@ window.HEATING_DATA = {
         },
         "boilerroom": {
           "name": "Kotelna",
-          "shape": "M890 260H1150V385H890Z",
+          "shape": "M890 260H975V385H890Z",
           "label": [
-            1020,
+            932.5,
             357
           ],
           "loops": 0,
