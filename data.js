@@ -140,6 +140,7 @@ window.HEATING_DATA = {
       "name": "Expanzní nádoba",
       "model": "AQUAFILL HS · VREM",
       "place": "Kotelna · E",
+      "photo": "expansion-2026-10-26",
       "status": "Štítek doložen",
       "kind": "known",
       "summary": "Vyrovnává zvětšování objemu topné vody při zahřívání. Není další akumulační nádrží.",
