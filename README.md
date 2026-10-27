@@ -1,6 +1,6 @@
-# Teplo doma – průvodce vytápěním chalupy
+# Chalupa – dokumentace vytápění
 
-Statický rodinný průvodce se dvěma orientačními půdorysy, přehledem zařízení a vysvětlením vytápění. Stav podkladů: 19. 10. 2026.
+Statická technická dokumentace konkrétní chalupy: půdorysy, fotografie zařízení, přehled zapojení a obsluha. Vizuální úprava: 27. 10. 2026.
 
 ## Spuštění a úpravy
 
@@ -13,7 +13,7 @@ Otevři `index.html` v prohlížeči nebo spusť `python -m http.server 8080` v 
 
 ## Rozsah a přesnost
 
-Půdorysy nejsou zaměřené. Obě podlaží sdílejí orientační obrys a schodiště. Rozměry doplníme později; podlahové smyčky jsou vyznačené plochou, nikoli trasou pro stavební zásahy.
+Celkový půdorys je orientační; dílčí měření přízemí jsou uvedená v detailech místností. Obě podlaží sdílejí orientační obrys a schodiště; podlahové smyčky jsou vyznačené plochou, nikoli trasou pro stavební zásahy.
 
 Šest vývodů rozdělovače je ověřených fotografií. Přiřazení štítku jídelna k prostoru u krbu vychází z popisu rodiny. Devět radiátorů představuje dosud popsaná tělesa; horní koupelna, WC a chodba nejsou jednotlivě ověřené. Nula u podlahovky neznamená automaticky absenci radiátoru.
 

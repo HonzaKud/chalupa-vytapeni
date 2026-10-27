@@ -7,3 +7,47 @@
 .mobile-plan-hint{display:none}@media(max-width:650px){.mobile-plan-hint{display:block;font-size:10px;color:var(--muted);padding:0 18px;margin:15px 0 0}}
 
 .measured-room{border-top:1px solid var(--line);margin-top:24px;padding-top:8px}.measured-room svg{width:100%;height:auto;display:block}.measurement-source{font-size:10px!important;color:var(--muted)}
+
+
+/* Technický přehled: kompaktní rozhraní, světlý výkres, tmavé záhlaví. */
+:root{--ink:#152639;--muted:#526479;--paper:#edf1f5;--surface:#fff;--line:#cbd5df;--orange:#a84b12;--green:#176848}
+body{font-size:16px;line-height:1.55;background:var(--paper)}
+.topbar{max-width:none;height:76px;padding:0 max(28px,calc((100vw - 1500px)/2 + 32px));background:#152639;color:#f4f7fb;border-bottom:3px solid #2b80cb;gap:24px}
+.brand{font-size:19px;letter-spacing:.3px;white-space:nowrap}.brand-mark{color:#78b9f2;font-size:29px}.brand-light{font-size:12px;font-weight:600;color:#b9c8d8}
+nav{gap:4px}.nav{font-size:14px;font-weight:600;color:#d4dfeb;border-radius:5px;padding:11px 14px}.nav:hover{background:#263c54}.nav.active{background:#e7f2ff;color:#132b45}.edition{font-size:9px;letter-spacing:1px;color:#b9c8d8}
+main{max-width:1500px;padding:0 32px}.intro{padding:22px 0 20px;gap:20px;align-items:center}.intro h1{font:700 26px/1.2 "Segoe UI",Arial,sans-serif;letter-spacing:-.5px;margin:0 0 4px}.lead{font-size:14px;line-height:1.4}.intro-note{min-width:190px;font-size:12px}.intro-note small{font-size:11px}.status-dot{background:#516c84;box-shadow:none}
+h1,h2,h3,.plan-title h2,.detail-card h2,.flow-detail h2,#inventory-detail h2,.section-heading h2,.inventory-card h3,.flow-branches h3,.paper-note h3,.flow-node strong{font-family:"Segoe UI",Arial,sans-serif;font-weight:700;letter-spacing:-.3px}
+.workspace{grid-template-columns:minmax(0,1fr) 360px;gap:18px}.plan-card,.detail-card{border-radius:6px;border-color:#c3cfdb;box-shadow:0 2px 8px #15263908}
+.plan-toolbar{padding:14px 18px;background:#f8fafc;min-height:62px}.segmented{background:#dde5ed;border-radius:5px;padding:3px}.segmented button{font-size:14px;padding:7px 20px}.segmented .active{background:#152639;color:white;box-shadow:none}
+.toggle{font-size:12px;color:#34495e}.toggle input{accent-color:#246eaf}
+.plan-title{padding:18px 20px 0;align-items:start}.plan-title h2{font-size:21px}.eyebrow{font-size:10px;letter-spacing:1.3px;color:#526479;margin-bottom:7px}.plan-title .eyebrow{display:none}.plan-scale{font-size:11px}
+.svg-wrap{background-color:#fff;background-image:radial-gradient(#b6c8db70 .65px,transparent .65px);margin-top:4px;padding:0 8px}.svg-wrap svg{min-height:0}
+.room-base{fill:#f4f7fa;stroke:#50667c}.room:hover .room-base{fill:#e4edf7}.room.selected .room-base{fill:#deedfc;stroke:#216eb0}.room-name{fill:#152c42;font-size:16px}.room-description{fill:#425c72;font-size:12px}
+.window-cut,.door-cut{stroke:#fff}.window-line{stroke:#277ab8}.door-swing{stroke:#566c80;stroke-width:1.6}
+.radiator rect{fill:#b4521b}.radiator path{stroke:#fff0e6}
+.stairs rect{fill:#e4eaf0;stroke:#8598aa}.stairs path{stroke:#8497aa}.stairs text{fill:#3e566d}
+.device-marker circle{fill:#173f64;stroke:white}.device-marker:hover circle{fill:#a94c14}
+.outside-label,.zone-label,.zone-small{fill:#466079}.balcony{fill:#eaf0f6;stroke:#728aa1}.balcony-door{stroke:#277ab8}
+.bench{fill:#d0dbe5;stroke:#60788e}.table{fill:#edf2f7;stroke:#60788e}.furniture-label{fill:#3b5268}.counter{fill:#d8e2eb;stroke:#7b8e9f}.fireplace{fill:#efc7aa;stroke:#a65a28}
+.legend{padding:13px 20px;font-size:11px;gap:16px;background:#fff}.legend-floor{background:repeating-linear-gradient(135deg,#b8cce0 0 1px,#f2f6fb 1px 4px);border-color:#9db4ca}.legend-device{background:#173f64}
+.plan-footnote{background:#f0f4f8;color:#4b6277;font-size:11px;padding:12px 20px}
+.detail-card{padding:22px;min-height:340px;border-top:3px solid #246eaf}.detail-card h2,.flow-detail h2,#inventory-detail h2{font-size:25px}.detail-card h3{font-size:14px}.detail-card p,.facts{font-size:13px;line-height:1.65;color:#41566b}.detail-card .eyebrow{line-height:1.6}
+.badge{font-size:10px;border-radius:3px;padding:4px 7px}.badge.known{background:#e0f0e8;color:#21573f}.badge.reported{background:#e8eef4;color:#344f68}.badge.probable{background:#fff0d7;color:#80500d}
+.room-stats{margin:18px 0}.room-stats div{border-color:#a9c7e1}.room-stats b{font:700 25px/1.2 "Segoe UI",Arial,sans-serif}.room-stats span{font-size:11px}
+.photo-button{border-radius:4px;background:#e6edf4;margin:16px 0}.photo-button img{height:200px}.photo-button span{font-size:11px}.small-note,.uncertainty{background:#fff4e1;border:1px solid #ead7af;border-radius:4px;font-size:12px}.uncertainty strong{font-size:12px}
+.source{color:#536a7d!important;font-size:11px!important}.device-links button{background:#f1f5fa;border-color:#cad7e3;border-radius:4px;font-size:12px}.back-button,.text-button{color:#195f9b;font-size:12px}.device-links button:hover{background:#e5eef7}
+.metrics{margin:20px 0 28px;padding:16px 0}.metric-num{font:700 29px/1 "Segoe UI",Arial,sans-serif;color:#264f73}.metric-sub{font-size:11px}.metrics>div>span:last-child{font-size:12px}
+.section-heading{padding:0 0 16px}.section-heading h2{font-size:27px}.section-heading>p:last-child{font-size:14px}
+.flow-board{border-radius:6px;padding:24px}.flow-node{border-radius:5px;background:#edf4fb;border-color:#b9cee1;padding:20px;min-height:125px}.flow-node strong{font-size:23px}.flow-node small{font-size:12px}.flow-arrow{color:#8d4a17;border-color:#8d4a17}.flow-arrow small{font-size:10px}
+.flow-branches{gap:16px;margin-top:24px}.flow-branches article{background:#f0f4f8;border:1px solid #d4dfe9;border-radius:5px;padding:20px}.flow-branches h3{font-size:20px}.flow-branches p{font-size:13px}.branch-label{font-size:9px;color:#795019}.callout{border-color:#a96b19}.flow-detail,#inventory-detail{border-radius:5px}
+.paper-note{background:#e9f0f7;border-color:#c5d5e5;border-radius:5px;padding:24px}.paper-note h3{font-size:23px}.paper-note p{font-size:13px}.guide-body{font-size:14px}summary{font-size:16px}.solid-button{background:#173f64;border-radius:4px;font-size:13px}
+.search-label{font-size:13px}.search-label input{border-color:#aebfcf;border-radius:4px;font-size:14px}.inventory-card{border-radius:5px}.inventory-card h3{font-size:23px}.inventory-card p{font-size:13px}
+footer{max-width:1436px;padding:20px 0 26px;font-size:11px;margin:15px 32px 0}.footer-brand{font-size:14px}footer p{max-width:560px}
+dialog{border-radius:5px;background:#fff;color:#152639}dialog::backdrop{background:#0e1b2ce6}dialog p{font-size:13px}#close-photo{background:#fff;color:#14273c;border:1px solid #b4c2cf}
+.measured-room svg{background:#fff}.measurement-source{font-size:11px!important}
+button:focus-visible,a:focus-visible,input:focus-visible,summary:focus-visible,g:focus-visible{outline:3px solid #287bbd;outline-offset:3px}
+@media(min-width:1500px){footer{margin-left:auto;margin-right:auto}}
+@media(max-width:1150px){.edition{display:none}.workspace{grid-template-columns:minmax(0,1fr) 310px}.topbar{padding:0 24px}.detail-card{padding:18px}.brand-light{display:none}}
+@media(max-width:850px){.topbar{height:auto;min-height:100px;padding:14px 20px;gap:10px}.brand-light{display:inline}.workspace{grid-template-columns:1fr}.intro{padding:18px 0}.intro-note{display:none}main{padding:0 20px}.detail-card{min-height:0}.detail-card .photo-button{max-width:480px}.metrics{grid-template-columns:repeat(2,1fr)}.flow-branches{grid-template-columns:1fr}.flow-main{flex-direction:column;align-items:stretch}.guide-layout{grid-template-columns:1fr}footer{margin-left:20px;margin-right:20px}}
+@media(max-width:480px){.topbar{padding:12px 14px;min-height:96px}.brand{font-size:17px}.brand-light{font-size:10px}nav{width:100%;gap:2px;justify-content:space-between}.nav{font-size:12px;padding:9px 8px}main{padding:0 12px}.intro h1{font-size:22px}.lead{font-size:12px}.plan-toolbar{flex-direction:row;align-items:center;flex-wrap:wrap;padding:10px}.segmented button{font-size:12px;padding:7px 14px}.toggle{font-size:10px;margin:0;align-self:center}.plan-title{padding:14px 14px 0}.plan-title h2{font-size:19px}.plan-scale{font-size:10px}.mobile-plan-hint{margin:10px 0;padding:0 14px;font-size:11px}.legend{padding:12px;font-size:10px;gap:12px}.plan-footnote{padding:10px 14px}.detail-card{padding:18px}.inventory-grid{grid-template-columns:1fr}.metrics>div>span:last-child{font-size:11px}.metric-sub{font-size:10px}.flow-board{padding:16px}footer{margin-left:14px;margin-right:14px}}
+@media print{body{background:white;color:black}.paper-note,.flow-board{background:white}.guide-body,.paper-note p{color:#222}.detail-card,.plan-card{box-shadow:none}}
